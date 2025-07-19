@@ -1,23 +1,23 @@
 # Handedness_Analysis
-##Refuting the myth that Left-Handed people die sooner, using Python and R
+## Refuting the myth that Left-Handed people die sooner, using Python and R
 This repository contains the Python and R code, along with the data, used for a data analysis project aimed at re-examining the claim that left-handed individuals have a shorter average lifespan than right-handed individuals. The analysis applies Bayesian statistical methods to demonstrate that any observed differences in age at death can be attributed to historical and sociocultural changes in the prevalence of left-handedness over time, rather than an intrinsic biological factor.
 
-##Project Goal
+Project Goal
 The primary objective of this project was to:
 Investigate the widely discussed claim regarding a shorter lifespan for left-handed individuals.
 Determine if observed differences in age at death could be explained by factors like historical bias and changing societal norms related to handedness.
 
-##Methodology
+Methodology
 The core of this project's methodology involves Bayesian inference to calculate the probability of being a certain age at death given an individual's handedness. This approach accounts for the dynamic prevalence of left-handedness across different birth years.
 
-##Key functions implemented in the code include:
+Key functions implemented in the code include:
 P_lh_given_A: Estimates the probability of an individual being left-handed at a given age, considering historical trends in handedness prevalence.
 P_lh: Calculates the overall probability of left-handedness within the study population for a specific year.
 P_A_given_lh: Applies Bayes' Theorem to determine the probability distribution of age at death for left-handed individuals.
 P_A_given_rh: Applies Bayes' Theorem to determine the probability distribution of age at death for right-handed individuals.
 These functions integrate concepts of age distribution, historical handedness rates, and conditional probabilities to derive insights.
 
-##Code and Data Structure
+Code and Data Structure
 The repository is organized as follows:
 -Analysis.py: The main Python script containing the Bayesian analytical functions, data loading, and initial processing.
 -Viz.R: The R script used for generating various data visualizations and performing some data preparation specific to plotting.
@@ -30,7 +30,7 @@ The repository is organized as follows:
 -README.md: This file, providing an overview of the project.
 -Visualizations/: A directory to store generated plots.
 
-##How to Run the Code
+How to Run the Code
 To run this analysis and reproduce the results and visualizations:
 1. Clone the Repository
 2. Install Python Dependencies
@@ -39,7 +39,7 @@ To run this analysis and reproduce the results and visualizations:
 5. Execute the Python Script
 6. Execute the R Script
 
-## Results
+Results
 The analysis demonstrated that the observed difference in average age at death between left- and right-handed individuals significantly diminishes when historical shifts in handedness prevalence are accounted for. This suggests that the apparent discrepancy in earlier studies was likely a statistical artifact rather than a biological reality.
 
 -In a 1990 context, an apparent average age difference of approximately 5.6 years was observed, with right-handers appearing to live longer.
