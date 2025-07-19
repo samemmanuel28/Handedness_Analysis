@@ -20,7 +20,7 @@ These functions integrate concepts of age distribution, historical handedness ra
 ## Code and Data Structure
 The repository is organized as follows:
 * Analysis.py: The main Python script containing the Bayesian analytical functions, data loading, and initial processing.
-* Viz.R: The R script used for generating various data visualizations and performing some data preparation specific to plotting.
+* Visuals.R: The R script used for generating various data visualizations and performing some data preparation specific to plotting.
 * LH_Data.csv: Dataset containing left-handedness rates by age and gender. This data is used to model historical changes in handedness prevalence.
 * DD_Data.csv: Dataset containing death distribution data (number of deaths by age for both sexes). This data provides the general population's age-at-death distribution.
 * bayes_probabilities_1990.csv: Intermediate output from Python, containing calculated Bayesian probabilities for the 1990 study year, used by the R script.
